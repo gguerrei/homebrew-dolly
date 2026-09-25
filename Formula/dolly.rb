@@ -7,14 +7,14 @@ class Dolly < Formula
   on_macos do
     on_arm do
       url "https://github.com/gguerrei/dolly/releases/download/v#{version}/dolly-macos-arm64"
-      sha256 "7cf2f92541af33102d8c97ed411434375ea8d49aa01bdcb445bfa475757fb4e4"
+      sha256 "eaa887267b774704fde7076e7f1b1849e7fda87ae0318f3265a497c4fc88f94e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gguerrei/dolly/releases/download/v#{version}/dolly-linux-x64"
-      sha256 "f44a50a7420216da3a236e5ba63dd68d942eaec9249acb867b5cf1d8582bc0dc"
+      sha256 "af3d34fb4fec4a19608283208d6146dd097b63aaaf0105d910049a12de9ac82e"
     end
   end
 
