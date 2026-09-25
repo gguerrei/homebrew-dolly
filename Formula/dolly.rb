@@ -1,20 +1,20 @@
 class Dolly < Formula
   desc "Save the way you build software as a pattern, then apply it anywhere"
   homepage "https://github.com/gguerrei/dolly"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/gguerrei/dolly/releases/download/v#{version}/dolly-macos-arm64"
-      sha256 "eaa887267b774704fde7076e7f1b1849e7fda87ae0318f3265a497c4fc88f94e"
+      sha256 "19f20f7c6f5fbfc511c3a14ad5bf5e47cb207ea002886be5052e82e14fb7c0e7"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/gguerrei/dolly/releases/download/v#{version}/dolly-linux-x64"
-      sha256 "af3d34fb4fec4a19608283208d6146dd097b63aaaf0105d910049a12de9ac82e"
+      sha256 "624ff99ab00c62bfb9f0e08825910074122f73f509c7ca91d66b09389d715113"
     end
   end
 
